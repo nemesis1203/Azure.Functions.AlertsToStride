@@ -15,7 +15,7 @@ Send azure availability alerts to stride
 4. Open application insight availability test
 5. Edit test alerts, add following webhooks:
 ```
-https://MYFUNCTIONAPP.azurewebsites.net/api/PostToStride?code=APIKEY==&conversationId=CONVERSATIONGUID
+https://MYFUNCTIONAPP.azurewebsites.net/api/PostToStride?code=APIKEY&conversationId=CONVERSATIONGUID
 ```
 Replace:
 
