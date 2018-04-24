@@ -3,7 +3,7 @@ Send azure availability alerts to stride
 
 0. Deploy the azure function
 1. Create a stride application 
-[https://developer.atlassian.com/apps/](https://developer.atlassian.com/apps/). (Enable Stride API to get client and secret. Remember to copy the `install url`)
+[https://developer.atlassian.com/apps/](https://developer.atlassian.com/apps/). (Enable Stride API to get `client id` and `client secret`. Remember to copy the `install url`)
 2. Add the application to the rooms to push alerts to, using the `install url` of the app
 3. Set the Azure function app settings
 ```
